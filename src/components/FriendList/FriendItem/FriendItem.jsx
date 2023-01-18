@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './friend-item.module.css'
+// import css from './friend-item.module.css'
 
 const FriendItem = ({avatar, name, isOnline})=> {
     const fullClassName = isOnline ? "online" : "offline";
